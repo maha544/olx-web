@@ -1,0 +1,748 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;  
+}
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 243, 243);
+    color: rgb(63, 62, 62);
+    padding: 10px;
+}
+  
+ .logo {
+    margin-right: 20px; 
+   
+  }
+  .logo img {
+    height: 24px;
+  }
+  .icons {
+    display: flex;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: rgb(73, 73, 73);
+    font-size: 0.9rem;
+  }
+  .icon a {
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+  }
+  .icon :hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+  }
+  .icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-right: 5px;
+    border-radius: 50%; 
+    background-image: linear-gradient(to bottom right, rgb(207, 203, 203), white);
+    width: 40px; 
+    height: 40px; 
+    color: rgb(99, 98, 98);
+  }
+
+/* header 1 */
+.header-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(245, 243, 243);
+    color: #3f3e3e;
+    padding: 10px;
+    height: 6vh;
+  }
+  
+  .logo1 {
+    margin-right: 20px;
+    height: 24px;
+  }
+  .logo1 img {
+   width: 100px;
+   height: 5vh;
+  }
+  .find,
+  .search,
+  .login,
+  .sell {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+  }
+  .find input {
+    padding: 10px;
+  width: 400px;
+    border: 2px solid rgb(0, 47, 52);
+    border-radius: 5px;
+  }
+  .search input {
+    padding: 10px;
+    width: 200px;
+    border: 2px solid rgb(0, 47, 52);
+    border-radius: 5px;
+  }
+  .login a {
+    text-decoration: none;
+    color: rgb(0, 47, 52);
+    margin-right: 10px;
+  }
+  .login a:hover {
+    text-decoration: underline;
+  }
+  .sell button {
+    background-color: rgb(245, 243, 243);
+    color: rgb(0, 47, 52);
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: url('https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg') no-repeat;
+    background-size: contain;
+    border: none;
+    padding: 25px; 
+    padding-top: 10px;
+  }
+  
+
+/* header 3   */
+.header2 {
+    height: 7vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    align-content: center;
+}
+.bar {
+    display: flex;
+    margin-top: 14px;
+    color: rgb(87, 85, 85);
+}
+.bar a {
+    text-decoration: none;
+    color:  rgb(87, 85, 85);
+}
+.bar a:hover {
+    color: rgb(176, 215, 240);
+}
+
+/* main content */
+.content-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;   
+}
+.content-img img {
+    border-radius: 5px;
+}
+.content-ad {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+    margin-bottom: 10px; 
+}
+
+/* icone */
+.cir-icon {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:20px ;
+    height: 500px;
+    gap: 15px;
+
+}
+.all-categories {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.all-categories h2 {
+    display: flex;
+    margin-left: 35px;
+}
+.circular-icons {
+    background-color: white;
+    margin-left: 35px;
+    text-align: center;
+    width: 100px;
+    height: 150px;
+}
+.circular-icons p {
+    margin-top: 10px;
+    cursor: pointer;
+}
+.circular-icons img {
+    display: flex;
+   width: 100px;
+   height: 100px;
+}
+
+/* web-content */
+.web-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.phones {
+    display: flex;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+.view {
+     display: flex;
+}
+.view a {
+    text-decoration: none;
+    color: cornflowerblue;
+} 
+.view a:hover {
+    text-decoration: underline;
+}  
+
+/* partone */
+.image-container {
+    display: flex;
+    justify-content: space-around;
+}
+.partone {
+    width: 300px; 
+    height: 340px;
+    background-image: url('https://images.olx.com.pk/thumbnails/405677350-240x180.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.partone img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+.partone p {
+    margin: 10px 0;
+    text-align: center;
+}
+.para{
+    display: inline;
+     background-color: white;
+    margin-top: 250px;
+    width: 300px;
+    height: 100px;
+}
+.para h5 {
+    margin-top: 30px;
+}
+.parttwo {
+    width: 300px;
+    height: 340px;
+    background-image: url('https://images.olx.com.pk/thumbnails/402883905-240x180.webp');
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.partthree {
+    width: 300px; 
+    height: 340px;
+    background-image: url('https://images.olx.com.pk/thumbnails/404509908-240x180.webp'); 
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.partfour {
+    width: 300px; 
+    height: 340px;
+    background-image: url('https://images.olx.com.pk/thumbnails/387589098-240x180.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+/* parttwo */
+.part1 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/405531797-240x180.webp');
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part2 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/404630531-240x180.webp');
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part3 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/405903432-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part4 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/401938574-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+
+
+
+
+/* partthree */
+.part5 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/405758113-240x180.webp');
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part6 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/406062992-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part7 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/405817955-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part8 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/401667459-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+
+
+
+
+/* partfour */
+.part9 {
+  width: 300px;
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/400810566-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part10 {
+  width: 300px;
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/398599687-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part11 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/402556257-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part12 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/402864295-240x180.webp');
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+
+
+
+/* partfive */
+.part13 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/366628827-240x180.webp');
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part14 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/398596456-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part15 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/350075761-240x180.webp');
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part16 {
+  width: 300px;
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/401700536-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+
+
+/* partsix */
+.part17 {
+  width: 300px;
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/404221349-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part18 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/404750073-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part19 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/379411639-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part20 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/405868139-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+
+
+/* partseven */
+.part21 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/401894873-240x180.webp');
+  background-size: cover;
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part22 {
+  width: 300px;
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/400922390-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part23 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/401898419-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part24 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/398708236-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+
+
+
+/* parteight */
+.part25 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/401498095-240x180.webp');
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part26 {
+  width: 300px;
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/398895748-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part27 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/399978955-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+.part28 {
+  width: 300px; 
+  height: 340px;
+  background-image: url('https://images.olx.com.pk/thumbnails/401144879-240x180.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+}
+
+
+/* footer */
+.footer {
+  display: flex;
+  background-color: rgb(229, 236, 236);
+  height: 200px;
+}
+.info {
+  flex: 1;
+  justify-content: left;
+  color: #002f34;
+  margin-top: 30px;
+}
+.grid {
+  display: grid;
+  margin: .8rem 0 0;
+  color: #002f34;
+}
+.grid li {
+  font-size: 0.8rem;
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+.grid a {
+  text-decoration: none;
+  color: #29727a;
+}
+.grid a:hover {
+  color: #011518;
+}
+.social-icons{
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.social-icons img {
+  width: 25.5px;
+  height: 25.5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.social-logos {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.social-logos img {
+  width: 6rem;
+  height: 1.6rem;
+  cursor: pointer;
+}
+
+/* footer colored */
+.color-footer{
+  display: flex;
+  justify-content: right;
+  background-color: #002f34;
+  color: white;
+  font-size: 0.8rem;
+  height: 7vh;
+}
+.color-footer p {
+  margin-right: 20px;
+  margin-top: 3vh;
+}
+
+
+
+  
+ 
